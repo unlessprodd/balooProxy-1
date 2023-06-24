@@ -25,8 +25,8 @@
     },
     "domains": [
         {
-            "name": "baloo.one",
-            "backend": "1.1.1.1",
+            "name": "vuestress.ru",
+            "backend": "193.35.18.195",
             "scheme": "http",
             "certificate": "assets/server/server.crt",
             "key": "assets/server/server.key",

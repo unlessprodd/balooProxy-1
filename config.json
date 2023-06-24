@@ -17,10 +17,10 @@
             "read_header": 5
         },
         "ratelimits": {
-            "challengeFailures": 40,
-            "noRequestsSent": 10,
-            "requests": 500,
-            "unknownFingerprint": 150
+            "challengeFailures": 220,
+            "noRequestsSent": 300,
+            "requests": 1400,
+            "unknownFingerprint": 9000
         }
     },
     "domains": [
@@ -31,8 +31,8 @@
             "certificate": "assets/server/server.crt",
             "key": "assets/server/server.key",
             "webhook": {
-                "url": "https://discord.com/api/webhooks/1055573557880569886/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "name": "balooProxy",
+                "url": "https://discord.com/api/webhooks/1063059976819580969/PZJlMz_FBdHbkPJ7ehwoGUZOFO5nUKT9U8zUB2ypHkQRwDmvJHKiXyfTBA8p4wjZAURi",
+                "name": "DDoS Alert",
                 "avatar": "https://avatars.githubusercontent.com/u/73783549",
                 "attack_start_msg": "A DDoS attack has been detected against your domain `{{domain.name}}`",
                 "attack_stop_msg": "The DDoS attack against your domain `{{domain.name}}` has stopped"
